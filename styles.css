@@ -2,11 +2,11 @@ h1{
   color:yellow;
 }
 body {
-  background:black;
+  background: #5F9EA0;
   color:white;
 }
 a{
-  color:green;
+  color:#000000;
 }
 a:hover{
   color:red;
