@@ -9,8 +9,8 @@ body {
   font-style: Courier;
   font-size: 18;
 }
- li{
-    display: inline-block;
+li {
+ display: inline-block;
 }
 a{
   color:#000000;
