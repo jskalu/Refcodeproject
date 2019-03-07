@@ -1,9 +1,16 @@
 h1{
-  color:yellow;
+  color:#800000;
+  font-style:sans-serif;
+  font-size: 30;
 }
 body {
   background: #5F9EA0;
-  color:white;
+  color:black;
+  font-style: Courier;
+  font-size: 18;
+}
+ li{
+    display: inline-block;
 }
 a{
   color:#000000;
@@ -13,4 +20,7 @@ a:hover{
 }
 a:active{
   color:white;
+}
+body  {
+background: linear-gradient(to bottom, DARKKHAKI 10%,#696969 20%,#1C6C5A 46%);
 }
