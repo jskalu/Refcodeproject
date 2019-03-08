@@ -11,6 +11,10 @@ body {
 }
 li {
  display: inline-block;
+
+}
+inline {
+  align: right;
 }
 a{
   color:#000000;
@@ -22,5 +26,5 @@ a:active{
   color:white;
 }
 body  {
-background: linear-gradient(to bottom, DARKKHAKI 10%,#696969 20%,#1C6C5A 46%);
+background: linear-gradient(to bottom, DARKKHAKI 15%,#696969 30%,#FAF0E6 46%);
 }
