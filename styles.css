@@ -3,13 +3,24 @@ h1{
   font-style:sans-serif;
   font-size: 30;
 }
+h1 {
+    animation-duration: 3s;
+    animation-name: pagetitle;
+    position: relative;
+}
+@keyframes pagetitle {
+  from {left:900px;}
+  to {left:0px;}
+
+}
 body {
   background: #5F9EA0;
   color:black;
   font-style: Courier;
   font-size: 18;
 }
-li {
+
+header li {
  display: inline-block;
 
 }
