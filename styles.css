@@ -4,8 +4,8 @@ h1{
   font-size: 30;
 }
 h1 {
-    animation-duration: 3s;
-    animation-name: pagetitle;
+
+    animation: pagetitle 3s infinite alternate;
     position: relative;
 }
 @keyframes pagetitle {
