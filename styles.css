@@ -19,10 +19,16 @@ body {
   font-style: Courier;
   font-size: 18;
 }
-
+header ul {
+  float: right;
+}
 header li {
  display: inline-block;
 
+}
+header li a {
+  text-decoration: none;
+  margin-right: 15px;
 }
 inline {
   align: right;
