@@ -5,12 +5,12 @@ h1{
 }
 h1 {
 
-    animation: pagetitle 3s infinite alternate;
+    animation: pagetitle 20s infinite alternate;
     position: relative;
 }
 @keyframes pagetitle {
   from {left:900px;}
-  to {left:0px;}
+  to {left:10px;}
 
 }
 body {
@@ -29,6 +29,10 @@ header li {
 header li a {
   text-decoration: none;
   margin-right: 15px;
+}
+div.b {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
 }
 inline {
   align: right;
