@@ -19,6 +19,18 @@ body {
   font-style: Courier;
   font-size: 18;
 }
+header{
+  width: 100%;
+margin-bottom: 14px;
+height: 81px;
+background: white;
+}
+header img
+{
+float: left;
+
+
+}
 header ul {
   float: right;
 }
@@ -49,4 +61,15 @@ a:active{
 }
 body  {
 background: linear-gradient(to bottom, DARKKHAKI 15%,#696969 30%,#FAF0E6 46%);
+}
+
+  .mypic{
+    float: right;
+    margin-left: 30px;
+  }
+  .socialmedia{
+    font-size: 25px;
+  }
+.socialmedia a{
+  color:blue;
 }
