@@ -1,5 +1,5 @@
 h1{
-  color:#800000;
+  color:black;
   font-style:sans-serif;
   font-size: 30;
 }
@@ -23,7 +23,8 @@ header{
   width: 100%;
 margin-bottom: 14px;
 height: 81px;
-background: white;
+background: #76742C;
+
 }
 header img
 {
@@ -51,7 +52,7 @@ inline {
   align: right;
 }
 a{
-  color:#000000;
+  color:yellow;
 }
 a:hover{
   color:red;
