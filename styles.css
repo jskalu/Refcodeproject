@@ -4,15 +4,16 @@ h1{
   font-size: 30;
 }
 h1 {
-
-    animation: pagetitle 20s infinite alternate;
-    position: relative;
+  animation: pagetitle 20s infinite alternate;
+  position: relative;
 }
+
 @keyframes pagetitle {
   from {left:900px;}
   to {left:10px;}
 
 }
+
 body {
   background: #5F9EA0;
   color:black;
@@ -21,56 +22,65 @@ body {
 }
 header{
   width: 100%;
-margin-bottom: 14px;
-height: 81px;
-background: #76742C;
-
+  margin-bottom: 14px;
+  height: 81px;
+  background: #76742C;
 }
+
 header img
 {
-float: left;
-
-
+  float: left;
 }
+
 header ul {
   float: right;
 }
+
 header li {
  display: inline-block;
-font-weight: bold;
-font-size:20px;
+  font-weight: bold;
+  font-size:20px;
 }
+
 header li a {
   text-decoration: none;
   margin-right: 15px;
 }
+
 div.b {
   text-decoration-line: underline;
   text-decoration-style: wavy;
 }
+
 inline {
   align: right;
 }
+
 a{
   color:yellow;
 }
+
 a:hover{
   color:black;
 }
+
 a:active{
   color:white;
 }
+
 body  {
-background: linear-gradient(to bottom, DARKKHAKI 15%,#696969 30%,#FAF0E6 46%);
+  background: linear-gradient(to bottom, DARKKHAKI 15%,#696969 30%,#FAF0E6 46%);
 }
 
-  .mypic{
-    float: right;
-    margin-left: 30px;
-  }
-  .socialmedia{
-    font-size: 25px;
-  }
+.mypic{
+  float: right;
+  margin-left: 30px;
+}
+
+.socialmedia{
+  font-size: 25px;
+}
+
 .socialmedia a{
   color:blue;
 }
