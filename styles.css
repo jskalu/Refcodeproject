@@ -90,7 +90,17 @@ font-style: oblique;
 padding-left: 100px;
 position: absolute;
 left: 60px;
-bottom: 250px;
+bottom: 300px;
+}
+p2 {
+  margin-left: 250px;
+  font-size: 25px;
+  padding: 10px;
+  font-style: italic;
+  padding-left:100px;
+  position: absolute;
+  left: 50px;
+  bottom: 120px
 }
 
 .mypic{
