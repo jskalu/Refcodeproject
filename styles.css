@@ -8,6 +8,15 @@ h1 {
   position: relative;
 }
 
+h3{
+  color:black;
+  font-style:sans-serif;
+  font-size: 50;
+  display: inline;
+  font-weight: bold;
+
+}
+
 @keyframes pagetitle {
   from {left:900px;}
   to {left:10px;}
@@ -39,7 +48,7 @@ header ul {
 header li {
  display: inline-block;
   font-weight: bold;
-  font-size:20px;
+  font-size:25px;
 }
 
 header li a {
@@ -72,6 +81,18 @@ body  {
   background: linear-gradient(to bottom, DARKKHAKI 15%,#696969 30%,#FAF0E6 46%);
 }
 
+p1{
+margin-left: 350px;
+font-size: 30px;
+padding: 15px;
+font-weight: bold;
+font-style: oblique;
+padding-left: 100px;
+position: absolute;
+left: 60px;
+bottom: 250px;
+}
+
 .mypic{
   float: right;
   margin-left: 30px;
@@ -83,4 +104,14 @@ body  {
 
 .socialmedia a{
   color:blue;
+}
+
+.contact-page{
+  background-image:url(sky.jpg);
+  height: 100%; width: 100%;
+  background-position: center;
+  Length:100%;
+
+.about{
+  background-color: yellow;
 }
