@@ -86,26 +86,13 @@ body  {
   background: linear-gradient(to bottom, DARKKHAKI 15%,#696969 30%,#FAF0E6 46%);
 }
 
-p1{
-margin-left: 350px;
+.quote1{
 font-size: 30px;
-padding: 15px;
 font-weight: bold;
-font-style: oblique;
-padding-left: 100px;
-position: absolute;
-left: 60px;
-bottom: 300px;
 }
-p2 {
-  margin-left: 250px;
+.quote2 {
   font-size: 25px;
-  padding: 10px;
   font-style: italic;
-  padding-left:100px;
-  position: absolute;
-  left: 50px;
-  bottom: 120px
 }
 
 .mypic{
