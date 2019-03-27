@@ -84,6 +84,7 @@ a:active{
 
 body  {
   background: linear-gradient(to bottom, DARKKHAKI 15%,#696969 30%,#FAF0E6 46%);
+  margin: 0;
 }
 
 .quote1{
@@ -136,7 +137,10 @@ font-weight: bold;
 
 .about {
   background-image:url(sky1.jpg);
-width: 100%;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
 }
 
 .resume {
