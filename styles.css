@@ -134,9 +134,9 @@ font-weight: bold;
   display: block;
 }
 
-.About {
+.about {
   background-image:url(sky1.jpg);
-
+width: 100%;
 }
 
 .resume {
