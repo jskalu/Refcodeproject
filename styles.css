@@ -1,6 +1,6 @@
 html, body{
   width: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 h1{
@@ -43,7 +43,7 @@ header{
 
 header img
 {
-  float: left;
+  float: left; width: 70px;
 }
 
 header ul {
@@ -103,6 +103,7 @@ font-weight: bold;
 
 .mypic3{
   margin-top: 40px;
+  width: 350px;
 }
 
 .socialmedia{
@@ -150,26 +151,13 @@ font-weight: bold;
 .links {
   background-image: url(sky.jpg);
 }
-@media (min-width:60px){
-
-}
 
 @media (min-width:800px) {
   p{
     font-size: 1.5rem
     line-height:1.5;
   }
-
 }
-@media screen and (max-width:480px)
-      {
-        body:hover span{padding:0px;
-
-        }
-        img,iframe{
-          width: 100%;
-        }
-      }
 
 .mainLayoutGrid {
   display: grid;
@@ -182,4 +170,38 @@ font-weight: bold;
   font-size: 18px;
   font-weight: bold;
 
+}
+
+footer {
+ width: 100%;
+ text-align: center;
+
+}
+
+@media screen and (max-width:480px){
+  body:hover span{
+    padding:0px;
+  }
+  img, .mypic3, iframe{
+    width: 100%;
+  }
+  main.mainLayoutGrid {
+    display: block;
+  }
+  header img{
+    display: inline-block;
+    height: 150px;
+    width: auto;
+    float: none;
+  }
+  header{
+    text-align: center;
+    height: 370px;
+  }
+  nav ul {
+    display: block; width: 100%;
+  }
+  nav li {
+    display: block; width: 100%;
+  }
 }
