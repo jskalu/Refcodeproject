@@ -148,6 +148,16 @@ font-weight: bold;
   background-image: url(resume.jpg);
 }
 
+.cv{
+  position: absolute;
+  left: 600px;
+  bottom: 300px;
+  font-size: 50px;
+  color: yellow;
+  font-family: comic;
+  font-weight: bold;
+}
+
 .links {
   background-image: url(index.jpg);
 }
@@ -163,7 +173,7 @@ height: 100%;
 
 @media (min-width:800px) {
   p{
-    font-size: 1.5rem
+    font-size: 1.5rem;
     line-height:1.5;
   }
 }
@@ -192,16 +202,26 @@ height: 100%;
   justify-content: center;
 
 }
+
 footer {
  width: 100%;
  text-align: center;
  color: white;
 
+}
+.button{
+  display: none;
+}
 
-
+.button img {
+  width: 35px;
+  height: auto;
 }
 
 @media screen and (max-width:480px){
+  .button {
+    display: block;
+  }
   body:hover span{
     padding:0px;
   }
@@ -219,10 +239,16 @@ footer {
   }
   header{
     text-align: center;
-    height: 370px;
+    height: auto;
+    padding-bottom: 15px;
   }
   nav ul {
-    display: block; width: 100%;
+    display: none; width: 100%;
+    float: none;
+    padding: 0px;
+  }
+  nav.active ul{
+    display: block;
   }
   nav li {
     display: block; width: 100%;
