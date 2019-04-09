@@ -149,9 +149,11 @@ font-weight: bold;
 }
 
 .cv{
-  position: absolute;
-  left: 600px;
-  bottom: 300px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top:200px;
+  margin-bottom: 200px;
   font-size: 50px;
   color: yellow;
   font-family: comic;
