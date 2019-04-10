@@ -194,14 +194,14 @@ height: 100%;
 }
 
 .text1 {
-  font-size: 60px;
+  font-size: 100px;
   font-weight: bold;
   font-style: oblique;
   color: black;
   text-align: center;
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
 
 }
 
@@ -216,7 +216,7 @@ footer {
 }
 
 .button img {
-  width: 35px;
+  width: 65px;
   height: auto;
 }
 
